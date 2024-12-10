@@ -259,7 +259,7 @@ var ecommerce_items = [];
 var ecommerce = [];
 var event = '';
 if(data.use_datalayer === false){  
-  ecommerce_items = data.alternative_input;
+  ecommerce_items = data.alternative_input.items;
   ecommerce = data.alternative_input;
 }
 else{
